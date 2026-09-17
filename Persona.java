@@ -2,10 +2,10 @@ public class Persona{
     String nome;
     String cognome;
     String azienda;
-    luogoVacanza;
+    String luogoVacanza;
 
     public Persona(String nome, String cognome, String azienda, String luogoVacanza){
-        this.Nome = nome;
+        this.nome = nome;
         this.cognome = cognome;
         this.azienda = azienda;
         this.luogoVacanza = luogoVacanza;
@@ -19,15 +19,15 @@ public class Persona{
         return nome;
     }
 
-    public int getCognome() {
+    public String getCognome() {
         return cognome;
     }
 
-    public int getAzienda() {
+    public String getAzienda() {
         return azienda;
     }
 
-    public int getLuogoVacanza() {
+    public String getLuogoVacanza() {
         return luogoVacanza;
     }
 
